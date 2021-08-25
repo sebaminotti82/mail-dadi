@@ -23,8 +23,10 @@ var listaMail = [
 'matteo.ferrarotto@gmail.com',
 'oliver.minotti@gmail.com']
 
-if(!mail.includes('@')){
-   document.getElementById('errore').innerHTML='ATTENZIONE !! LA MAIL DEVE  CONTENERE ALMENO UNA @ PER POTER ESSERE VERIFICATA . RIPETI L\' OPERAZIONE!!'
+if((!mail.includes('@'))){
+   document.getElementById('errore').innerHTML='ATTENZIONE !! LA MAIL DEVE  CONTENERE ALMENO UNA @  PER POTER ESSERE VERIFICATA . RIPETI L\' OPERAZIONE!!'
+}else if((!mail.includes('.'))){
+  document.getElementById('errore').innerHTML='ATTENZIONE !! LA MAIL DEVE  CONTENERE ALMENO UN (.)  PER POTER ESSERE VERIFICATA . RIPETI L\' OPERAZIONE!!'
 }
 
 // fine mail list---------------------------------------------
