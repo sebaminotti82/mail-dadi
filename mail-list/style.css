@@ -1,0 +1,87 @@
+.form{
+    float: left;
+    width: 30vw;
+    height: 90vh;
+    border: 1px solid black;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(32, 32, 32, 0.959);
+    color:white
+}
+.box{
+margin-top: 5px;
+width: 80%;
+height: 20vh;
+border: 2px solid white;
+margin-left: 10%;
+}
+input{
+    text-align: center;
+}
+input:hover{
+    cursor: pointer;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+input:hover::-webkit-input-placeholder {
+    transition: 1s;
+   color: white;
+   background-color: rgba(32, 32, 32, 0.959);
+
+}
+
+
+
+
+/* fine form di registrazione */
+
+
+.box_risposta{
+    background-color: rgba(32, 32, 32, 0.959);
+    position: relative;
+    width: 65vw;
+    height: 90vh;
+   
+    float: left;
+    margin-left: 1vw;
+}
+#verifica{
+    margin-top: 5vh;
+    cursor: pointer;
+
+}
+
+.risposta{
+    position: absolute;
+    width: 90%;
+    height: 30vh;
+    margin-top: 35vh;
+   
+    margin-left: 5%;
+    display: none;
+    color: white;
+  
+}
+
+.risposta h3{
+    text-align: center;
+    color: red;
+}
+h3.blu{
+color: blue;
+text-align: center;
+}
+
+
+.risposta h2 {
+    text-align: center;
+}
+#errore {
+text-align: center;
+font-size: 1.5em;
+color: red;
+
+}

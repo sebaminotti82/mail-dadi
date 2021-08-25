@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>mail list</title>
+</head>
+<body>
+
+    <!-- creiamo una mailList aggiungiamo un input e un bottone con la quale
+     inserire
+    e verifivare la mail , se questa è presente allora potremmo accedere -->
+    
+    <!-- iniziamo con la parte di html  -->
+
+    <div class="form">
+          <h1>form di verifica</h1>
+        <div class="box">
+          <h2>Nome</h2>
+          <input placeholder="nome" type="text" name="" id="nome">
+        </div>
+
+        <div class="box">
+          <h2>Cognome</h2>
+          <input placeholder="cognome" type="text" name="" id="cognome">
+        </div>
+
+        <div class="box">
+          <h2>Mail</h2>
+          <input placeholder="la tua mail" type="email" name="" id="mail">
+        </div>
+        <button id="verifica">VERIFICA-MAIL</button> <button id="reload">annulla</button>
+    </div>
+
+    <!-- fine della sezione del form di accesso -->
+
+    <div class="box_risposta">
+      <div id="visibile" class="risposta">
+          <h2 id="esito">ATTENDI ESITO DI VERIFICA</h2>
+          <h2 id="errore"></h2>
+      </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
