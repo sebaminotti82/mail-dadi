@@ -1,0 +1,61 @@
+body{
+    background-color: #3d3d3d;
+}
+.container {
+    margin-left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 250px;
+    
+}
+
+
+
+.dado{
+    margin-top: 20px;
+    margin-left:50px;
+    width: 200px;
+    height: 200px;
+    border-left: 3px solid red;
+    border-right: 3px solid green;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid blue;
+    border-radius: 5%;
+    background-color: rgb(56, 125, 216);
+    color: white;
+    
+
+}
+.dado h1 {
+    text-align: center;
+    font-size: 4em;
+    line-height: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* filter: blur(15px); */
+    filter: opacity(0%);
+}
+.dado h3 {
+    text-align: center;
+}
+
+.risultato{
+    margin-left: 18%;
+    width: 60%;
+    height: 10vh;
+    position: absolute;
+    top:250px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.game{
+position: absolute;
+top: 400px;
+left: 550px;
+width: 200px;
+height: 100px;
+
+}
