@@ -49,7 +49,7 @@ for(var i = 0; i < listaMail.length; i++){
 //   se verifica è == true allora la mail è inserita e presente nella lista quindi si potrà accedere al servizio
 //   altrimenti sara vietato l'accesso
 if(verifica ==true){
-    document.getElementById('esito').innerHTML='<h3 class="blu">ACCESSO CONSENTITO  <i class="fas fa-lock-open"></i></h3>'+" "+ 'BENVENUTO :'+' '+nome +" " + cognome
+    document.getElementById('esito').innerHTML='<h3 class="blu">ACCESSO CONSENTITO  <i class="fas fa-lock-open"></i></h3>'+" "+ 'BENVENUTO-A :'+' '+nome +" " + cognome
   } else if((verifica != true)){
    document.getElementById('esito').innerHTML='<h3>ACCESSO NON CONSENTITO <i class="fas fa-lock"></i></h3>'+" "+ 'MI SPIACE LA SUA MAIL NON E\' STATA RICONOSCIUTA'
   } 
