@@ -3,6 +3,7 @@
 // l'operazione di verifica
 var verifica = document.getElementById('verifica')
 var reload = document.getElementById('reload')
+
 //-----------------------------------------------------------
 //-----------------------------------------------------------
 
@@ -29,6 +30,28 @@ if((!mail.includes('@'))){
   document.getElementById('errore').innerHTML='ATTENZIONE !! LA MAIL DEVE  CONTENERE ALMENO UN (.)  PER POTER ESSERE VERIFICATA . RIPETI L\' OPERAZIONE!!'
 }
 
+var number =[1,2,3,4,5,6,7,8,9,0,'1','2','3','4','5','6','7','8','9','0']
+var verifica
+// var nome = prompt('inserisci nome')
+console.log(nome);
+
+var verific
+
+for(var i = 0; i  < number.length; i ++){
+
+    if(nome.includes(number[i])){
+        verific = true
+    }
+
+}
+
+if(verific == true){
+  document.getElementById('errore').innerHTML='ATTENZIONE !! IL NOME NON PUO\' CONTENERE NUMERI MA SOLO LETTERE CLICCA SU ANNULLA PER RIPETERE L\' OPERAZIONE'
+  document.getElementById('esito').style.display='none'
+
+} else {
+  
+}
 // fine mail list---------------------------------------------
 //------------------------------------------------------------
 // variabile d'appoggio per verificare se la mail è trovata o no ! potrei
@@ -60,6 +83,6 @@ if(verifica ==true){
 
 })
 reload.addEventListener('click',function(){
-    alert('hai annullato l\'operazione')
+    
     location.reload()
 })

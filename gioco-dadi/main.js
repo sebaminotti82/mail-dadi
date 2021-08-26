@@ -32,7 +32,7 @@ setTimeout(() => {
     }else if(numeroPc > numeroUmano ){
         document.getElementById('vincitore').innerHTML='MI SPIACE MA IL PC HA VINTO'
     } else {
-        document.getElementById('vincitore').innerHTML='WEEE UN BEL PAREGGIO CI STA '
+        document.getElementById('vincitore').innerHTML=' UN BEL PAREGGIO '
     }
 
     document.getElementById("numeroPc").style.filter = "none";
